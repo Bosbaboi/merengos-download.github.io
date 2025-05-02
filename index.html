@@ -1,168 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MERENGOS</title>
-  <link rel="icon" href="favicon.png" type="image/png" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download MERENG OS</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #121212;
-      color: #ffffff;
+      background-color: #0f0f0f;
+      color: #00ffaa;
       margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .container {
+      padding: 20px;
       text-align: center;
-      max-width: 700px;
-      padding: 40px 20px;
     }
-
-    img.logo {
-      max-width: 200px;
-      margin-bottom: 20px;
-    }
-
     h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
-      color: #00ffcc;
+      font-size: 2.5em;
     }
-
-    p {
-      font-size: 1.1em;
-      line-height: 1.6;
-      color: #cccccc;
+    .os-card {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 400px;
+      box-shadow: 0 0 10px #00ffaa50;
     }
-
-    .download-button {
-      margin-top: 20px;
+    .os-card h2 {
+      color: #00ffaa;
     }
-
-    .download-button a {
+    .os-card p {
+      color: #ccc;
+    }
+    .button {
       display: inline-block;
-      padding: 12px 24px;
-      background-color: #00ffcc;
-      color: #000000;
-      font-size: 1.1em;
-      font-weight: bold;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: background-color 0.3s;
-    }
-
-    .download-button a:hover {
-      background-color: #00ccaa;
-    }
-
-    .tabs {
-      margin: 40px 0 20px;
-    }
-
-    .tab {
-      background: #1e1e1e;
-      border: none;
-      color: #00ffcc;
+      background-color: #00ffaa;
+      color: black;
       padding: 10px 20px;
-      margin: 5px;
+      margin-top: 10px;
+      text-decoration: none;
       border-radius: 5px;
-      cursor: pointer;
+      font-weight: bold;
     }
-
-    .tab.active {
-      background: #00ffcc;
-      color: #000000;
+    .nav-tabs {
+      margin: 30px 0;
     }
-
-    .content {
-      display: none;
-      margin-top: 20px;
-      animation: fadeInUp 0.5s ease;
-    }
-
-    .content.active {
-      display: block;
-    }
-
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(30px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    .developer {
-      margin-top: 40px;
-      font-size: 0.9em;
-      color: #888888;
+    .nav-tabs a {
+      margin: 0 10px;
+      color: #00ffaa;
+      text-decoration: none;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <img src="mereng-os.png" alt="MERENG OS Logo" class="logo">
-    <h1>MERENGOS</h1>
-    <p><strong>About MERENGOS</strong></p>
-    <p>
-      MERENGOS is a modified, lightweight, and optimized version of Windows.<br>
-      It is over three times lighter than the original Microsoft Windows.<br>
-      It comes completely free of bloatware, without Microsoft Windows Defender, and without Microsoft Windows updates.<br>
-      MERENG OS uses three times less CPU and RAM compared to standard Windows.
-    </p>
 
-    <div class="tabs">
-      <button class="tab active" onclick="showTab(0)">MERENGOS10 Ghost Edition</button>
-      <button class="tab" onclick="showTab(1)">Discord</button>
-      <button class="tab" onclick="showTab(2)">YouTube</button>
-    </div>
+  <h1>Download MERENG OS</h1>
 
-    <div class="content active">
-      <h1>MERENGOS10 Ghost Edition</h1>
-      <p>Mereng OS ghost 22H2 VERSION 
-    💿8GB USAGE DATA C
-     800MB USAGE RAM NO SPOOLE.</p>
-      <div class="download-button">
-        <a href="https://pixeldrain.com/u/Wz7DqDaj/">Download MERENG OS10 ghost</a>
-      </div>
-       <div class="content">
-      <h1>Discord</h1>
-      <p>Join Discord.</p>
-      <div class="download-button">
-        <a href="http://dsc.gg/merengos">Join Discord</a>
-      </div>
-    </div>
-
-    <div class="content">
-      <h1>YouTube</h1>
-      <p>Youtube Official MERENG OS.</p>
-      <div class="download-button">
-        <a href="https://youtube.com/@projectmerengos?si=C_zz7zQJDu28qyXq">YouTube Mereng OS (1)</a>
-      </div>
-    </div>
-
-    <div class="developer">
-      Developed by Muhammad Bukhari Al Deni ©️2025
-    </div>
+  <div class="nav-tabs">
+    <a href="#mereng10">MERENG OS 10</a>
   </div>
 
-  <script>
-    function showTab(index) {
-      const tabs = document.querySelectorAll('.tab');
-      const contents = document.querySelectorAll('.content');
-      tabs.forEach((tab, i) => {
-        tab.classList.toggle('active', i === index);
-        contents[i].classList.toggle('active', i === index);
-      });
-    }
-  </script>
+   <section id="mereng10">
+    <div class="os-card">
+      <h2>MERENG OS 10 Ghost Edition</h2>
+      <p>Windows No DEFENDER AND NO PRINT SPOOLER RAM USAGE 800 MB SAME 8GB DISK C.</p>
+      <a class="button" href="https://pixeldrain.com/u/Wz7DqDaj">Download MERENG OS GHOST 10</a>
+    </div>
+  </section>
+
+ 
+
+  <p style="margin-top: 50px;">Developed by BUKHARI BUKHARI</p>
+
 </body>
 </html>
